@@ -18,13 +18,29 @@ footer {
 	border-radius: 50%;
 }
 
-img[src="images/lee-atlas.jpg"] {
+.lee {
 	background-image: url("images/lee-atlas.jpg")
 }
-img[src="images/lee-atlas.jpg"]:hover{
+.lee:hover{
 	background-image: url("")
 }
 
-img[src="images/lee-atlas.jpg"] {
+.michael{
+	background-image: url("images/lee-atlas.jpg")
+}
+.michael:hover{
+	background-image: url("images/lee-atlas.jpg")
+}
+.john{
+	background-image: url("images/lee-atlas.jpg")
+}
+.john:hover{
+	background-image: url("images/lee-atlas.jpg")
+}
+
+.daniel{
+	background-image: url("images/lee-atlas.jpg")
+}
+.daniel:hover{
 	background-image: url("images/lee-atlas.jpg")
 }
