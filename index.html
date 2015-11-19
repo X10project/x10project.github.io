@@ -23,7 +23,7 @@
     	<!-- x10 logo -->
         <div class="row logo-placeholder">
             <div class="one-half column offset-by-three" style="margin-top: 7.5%; margin-bottom: 5%">
-                <img src="images/x10-logo-small.png" rel="studio logo">
+                <img id="logo" src="images/x10-logo-small-white-2.png" rel="studio logo">
             </div>
         </div>
 
@@ -50,22 +50,27 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript">
-    $("#lee") .mouseover(function () {
+    $("#logo").mouseover(function () {
+       this.src= "images/x10-logo-small.png"
+    }).mouseout(function () {
+        this.src= "images/x10-logo-small-white-2.png"
+    });
+    $("#lee").mouseover(function () {
        this.src= "images/lee-atlas.jpg"
     }).mouseout(function () {
         this.src= "images/lee-normal.jpg"
     });
-    $("#michael") .mouseover(function () {
+    $("#michael").mouseover(function () {
        this.src= "images/michael-flying.jpg"
     }).mouseout(function () {
         this.src= "images/michael-normal.jpg"
     });
-    $("#john") .mouseover(function () {
+    $("#john").mouseover(function () {
        this.src= "images/john-kicked.jpg"
     }).mouseout(function () {
         this.src= "images/john-normal.jpg"
     });
-    $("#daniel") .mouseover(function () {
+    $("#daniel").mouseover(function () {
        this.src= "images/daniel-fierce.jpg"
     }).mouseout(function () {
         this.src= "images/daniel-normal.jpg"

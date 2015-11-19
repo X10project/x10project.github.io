@@ -1,6 +1,8 @@
 /* ------------------------------------------------------------------layout */
 body {
 	font-family: 'Lusitana', serif;
+	background-color: #212121;
+	color: #f9f9f9;
 }
 footer {
 	margin-top: 5%;
@@ -17,15 +19,7 @@ img {
 .logo-placeholder, .profile-placeholder {
 	text-align: center;
 }
-.lee, .michael, .john, .daniel {
-	height: 150px;
-	width: 150px;
-	background-size: 100%;
-	background-color: #333;
-	background-repeat: no-repeat;
-	border-radius: 50%;
-}
-#lee:hover, #michael:hover, #john:hover, #daniel:hover{
+#logo:hover, #lee:hover, #michael:hover, #john:hover, #daniel:hover{
 	cursor: pointer;
 	transition: .5s;
 }
