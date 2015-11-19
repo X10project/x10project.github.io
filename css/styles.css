@@ -4,9 +4,19 @@ body {
 	background-color: #212121;
 	color: #f9f9f9;
 }
+a {
+	color: #f9f9f9;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
 footer {
 	margin-top: 5%;
 	text-align: center;
+}
+footer div.row {
+	margin-bottom: 2.5%;
 }
 
 /* ------------------------------------------------------------------images */
@@ -21,5 +31,47 @@ img {
 }
 #logo:hover, #lee:hover, #michael:hover, #john:hover, #daniel:hover{
 	cursor: pointer;
-	transition: .5s;
+}
+
+/* -------------------------------------------------------------------fonts */
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?1s1d7q');
+	src:url('../fonts/icomoon.eot?1s1d7q#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?1s1d7q') format('truetype'),
+		url('../fonts/icomoon.woff?1s1d7q') format('woff'),
+		url('../fonts/icomoon.svg?1s1d7q#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.sm-placeholder {
+	display: inline-block;
+}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-google-plus:before {
+	content: "\e900";
+}
+.icon-facebook:before {
+	content: "\e901";
+}
+.icon-instagram:before {
+	content: "\e902";
+}
+.icon-twitter:before {
+	content: "\e903";
+}
+.icon-github4:before {
+	content: "\e904";
 }
