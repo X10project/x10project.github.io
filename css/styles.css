@@ -75,7 +75,7 @@ img {
 
 /* -----------------------------------------------------------media queries */
 /* mobile */
-@media (max-width: 400px) {
+@media (max-width: 550px) {
 	.profile-image, a[class*="icon-"] {
 		margin-bottom: 5%;
 	}
