@@ -1,3 +1,20 @@
+/* ------------------------------------------------------------------layout */
 body {
 	font-family: 'Lusitana', serif;
 }
+img {
+	max-width: 100%;
+}
+footer {
+	margin-top: 5%;
+	text-align: center;
+}
+
+/* ------------------------------------------------------------------images */
+.logo-placeholder, .profile-placeholder {
+	text-align: center;
+}
+.profile-image {
+	border-radius: 50%;
+}
+
