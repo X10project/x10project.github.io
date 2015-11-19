@@ -29,17 +29,17 @@
 
         <!-- profile images -->
         <div class="row profile-placeholder">
-            <div class="three columns lee profile-image">
-                <!-- <img class="profile-image" src="images/lee-atlas.jpg" rel="profile image 1"> -->
+            <div class="three columns">
+                <img id="lee" class="profile-image" src="images/lee-normal.jpg" rel="profile image lee">
             </div>
-            <div class="three columns michael profile-image">
-                <!-- <img class="profile-image" src="images/daniel-fierce.jpg" rel="profile image 2"> -->
+            <div class="three columns">
+                <img id="michael" class="profile-image" src="images/michael-normal.jpg" rel="profile image michael">
             </div>
-            <div class="three columns john profile-image">
-                <!-- <img class="profile-image" src="images/michael-flying.jpg" rel="profile image 3"> -->
+            <div class="three columns">
+                <img id="john" class="profile-image" src="images/john-normal.jpg" rel="profile image john">
             </div>
-            <div class="three columns daniel profile-image">
-                <!-- <img class="profile-image" src="images/john-kicked.jpg" rel="profile image 4"> -->
+            <div class="three columns">
+                <img id="daniel" class="profile-image" src="images/daniel-normal.jpg" rel="profile image daniel">
             </div>
         </div>
         <footer>
@@ -48,5 +48,28 @@
 
     </div><!-- end container -->
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $("#lee") .mouseover(function () {
+       this.src= "images/lee-atlas.jpg"
+    }).mouseout(function () {
+        this.src= "images/lee-normal.jpg"
+    });
+    $("#michael") .mouseover(function () {
+       this.src= "images/michael-flying.jpg"
+    }).mouseout(function () {
+        this.src= "images/michael-normal.jpg"
+    });
+    $("#john") .mouseover(function () {
+       this.src= "images/john-kicked.jpg"
+    }).mouseout(function () {
+        this.src= "images/john-normal.jpg"
+    });
+    $("#daniel") .mouseover(function () {
+       this.src= "images/daniel-fierce.jpg"
+    }).mouseout(function () {
+        this.src= "images/daniel-normal.jpg"
+    });
+</script>
 </body>
 </html>

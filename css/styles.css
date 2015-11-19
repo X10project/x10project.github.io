@@ -2,59 +2,30 @@
 body {
 	font-family: 'Lusitana', serif;
 }
-img {
-	max-width: 75%;
-}
-
-.lee, .michael, .john, .daniel{
-	width:150px;
-	height:150px;
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-}
-
-.lee:hover, .michael:hover, .john:hover, .daniel:hover{
-	cursor: pointer;
-	transition: .5s;
-}
-
 footer {
 	margin-top: 5%;
 	text-align: center;
 }
 
 /* ------------------------------------------------------------------images */
-.logo-placeholder, .profile-placeholder {
-	text-align: center;
+img {
+	max-width: 75%;
 }
 .profile-image {
 	border-radius: 50%;
 }
-
-.lee {
-	background-image: url("../images/lee-normal.jpg");
+.logo-placeholder, .profile-placeholder {
+	text-align: center;
 }
-.lee:hover{
-	background-image: url("../images/lee-atlas.jpg")
+.lee, .michael, .john, .daniel {
+	height: 150px;
+	width: 150px;
+	background-size: 100%;
+	background-color: #333;
+	background-repeat: no-repeat;
+	border-radius: 50%;
 }
-
-.michael{
-	background-image: url("../images/michael-normal.jpg")
-}
-.michael:hover{
-	background-image: url("../images/michael-flying.jpg")
-}
-.john{
-	background-image: url("../images/john-normal.jpg")
-}
-.john:hover{
-	background-image: url("../images/john-kicked.jpg")
-}
-
-.daniel{
-	background-image: url("../images/daniel-normal.jpg")
-}
-.daniel:hover{
+#lee:hover, #michael:hover, #john:hover, #daniel:hover{
 	cursor: pointer;
-	background-image: url("../images/daniel-fierce.jpg")
+	transition: .5s;
 }
