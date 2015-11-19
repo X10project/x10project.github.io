@@ -8,9 +8,6 @@ a {
 	color: #f9f9f9;
 	text-decoration: none;
 }
-a:hover {
-	text-decoration: underline;
-}
 footer {
 	margin-top: 5%;
 	text-align: center;
@@ -75,3 +72,22 @@ img {
 .icon-github4:before {
 	content: "\e904";
 }
+
+/* -----------------------------------------------------------media queries */
+/* mobile */
+@media (max-width: 400px) {
+	.profile-image, a[class*="icon-"] {
+		margin-bottom: 5%;
+	}
+	.profile-image {
+		max-width: 60%;
+	}
+	.profile-image:last-child, a[class*="icon-"]:last-child {
+		margin-bottom: 10%;
+	}
+}
+
+
+
+
+
