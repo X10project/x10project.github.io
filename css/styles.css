@@ -18,3 +18,13 @@ footer {
 	border-radius: 50%;
 }
 
+img[src="images/lee-atlas.jpg"] {
+	background-image: url("images/lee-atlas.jpg")
+}
+img[src="images/lee-atlas.jpg"]:hover{
+	background-image: url("")
+}
+
+img[src="images/lee-atlas.jpg"] {
+	background-image: url("images/lee-atlas.jpg")
+}
