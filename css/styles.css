@@ -5,6 +5,19 @@ body {
 img {
 	max-width: 75%;
 }
+
+.lee, .michael, .john, .daniel{
+	width:150px;
+	height:150px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.lee:hover, .michael:hover, .john:hover, .daniel:hover{
+	cursor: pointer;
+	transition: .5s;
+}
+
 footer {
 	margin-top: 5%;
 	text-align: center;
@@ -19,28 +32,29 @@ footer {
 }
 
 .lee {
-	background-image: url("images/lee-atlas.jpg")
+	background-image: url("../images/lee-normal.jpg");
 }
 .lee:hover{
-	background-image: url("")
+	background-image: url("../images/lee-atlas.jpg")
 }
 
 .michael{
-	background-image: url("images/lee-atlas.jpg")
+	background-image: url("../images/michael-normal.jpg")
 }
 .michael:hover{
-	background-image: url("images/lee-atlas.jpg")
+	background-image: url("../images/michael-flying.jpg")
 }
 .john{
-	background-image: url("images/lee-atlas.jpg")
+	background-image: url("../images/john-normal.jpg")
 }
 .john:hover{
-	background-image: url("images/lee-atlas.jpg")
+	background-image: url("../images/john-kicked.jpg")
 }
 
 .daniel{
-	background-image: url("images/lee-atlas.jpg")
+	background-image: url("../images/daniel-normal.jpg")
 }
 .daniel:hover{
-	background-image: url("images/lee-atlas.jpg")
+	cursor: pointer;
+	background-image: url("../images/daniel-fierce.jpg")
 }
